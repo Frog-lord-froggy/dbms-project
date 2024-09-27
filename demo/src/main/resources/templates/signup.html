@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <section>
+        <form>
+            <h1>Sign Up</h1>
+            <div class="inputbox">
+                <ion-icon name="person-outline"></ion-icon>
+                <input type="text" required>
+                <label>Your Name</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" required>
+                <label>Your Email</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" required>
+                <label>Your Password</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="briefcase-outline"></ion-icon>
+                <select required>
+                    <option value="" disabled selected>Select User Type</option>
+                    <option value="lawyer">Lawyer</option>
+                    <option value="paralegal">Paralegal</option>
+                    <option value="client">Client</option>
+                    <option value="admin">Admin</option>
+                </select>
+                <label>User Type</label>
+            </div>
+            <button>Sign Up</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </form>
+    </section>
+</body>
+</html>
